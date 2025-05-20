@@ -3,8 +3,8 @@
         <div class="col-span-3 flex justify-center items-center">
             <div class="flex justify-center items-center">
                 <div class="flex flex-col justify-center text-justify pl-20">
-                    <h3 class="text-4xl font-bold text-warning">Where can I get some?</h3>
-                    <p class="text-white w-[70%] mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                    <h3 class="text-3xl font-bold text-warning">Consult Your Legal Problem with Confidence</h3>
+                    <p class="text-white w-[70%] mt-5">Facing legal challenges can be overwhelming, but you don’t have to navigate them alone. Our expert team at Ono Law Firm is here to listen, understand your unique situation, and provide clear, practical advice tailored to your needs. Schedule a consultation today and take the first step toward resolving your legal issues with trusted guidance.</p>
                 </div>
             </div>
         </div>

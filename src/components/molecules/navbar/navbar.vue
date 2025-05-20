@@ -1,8 +1,10 @@
 <template>
     <div class="sticky top-0 z-10">
         <div class="flex bg-white items-center border-b">
-            <div class="flex gap-5 items-center w-80 justify-center py-6 border-r">
-                <div class="w-12 h-12 bg-primary border border-primary rounded-full"></div>
+            <div class="flex gap-3 items-center w-80 justify-center py-2 border-r">
+                <div class="w-20 h-20  rounded-full">
+                    <img :src="asset.lg" alt="logo-olf">
+                </div>
                 <div class="uppercase">
                     <span class="font-semibold text-3xl">OLF</span>
                 </div>
@@ -25,6 +27,7 @@
 </template>
 
 <script setup lang="ts">
+import asset from "../../../assets/asset.ts";
 import menu from "./navbar.interface.ts";
 
 const menuData = menu;

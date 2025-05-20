@@ -3,7 +3,9 @@
         <div class="grid grid-cols-3">
             <div class="flex flex-col justify-between pl-20">
                 <div class="flex gap-5 items-center">
-                    <div class="w-12 h-12 bg-secondary border border-secondary rounded-full"></div>
+                    <div class="w-36 h-3w-36 brightness-800 contrast-8 rounded-full">
+                        <img :src="asset.lg" alt="logo-olf">
+                    </div>
                     <div class="uppercase">
                         <span class="font-semibold text-3xl text-white">OLF</span>
                     </div>
@@ -75,6 +77,7 @@
 </template>
 
 <script setup lang="ts">
+import asset from '../../../assets/asset';
 import menu from '../navbar/navbar.interface';
 
 const menuData = menu;

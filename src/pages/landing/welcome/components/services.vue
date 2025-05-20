@@ -1,18 +1,23 @@
 <template>
     <div class="grid grid-cols-2">
-        <div class="bg-slate-200"></div>
-        <div class="py-40 bg-primary pl-24">
+        <div class="bg-slate-200 grayscale brightness-100" :style="{ backgroundImage: `url(${asset.imgBGService})` }"></div>
+        <div class="py-40 bg-primary px-24">
             <div class="border-t-2 border-warning w-20 h-6"></div>
             <span class="text-4xl font-semibold text-warning">Services</span>
             <div class="mt-7">
-                <p class="text-slate-200 text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p class="text-slate-200 text-base">At Ono Law Firm, we believe that a strong client relationship is the foundation of successful legal representation. We take the time to understand our clients' unique needs and goals, and we work closely with them to develop tailored legal strategies that achieve their desired outcomes. We are passionate about advocating for our clients' interests and protecting their rights.</p>
             </div>
             <div class="flex mt-8 items-center">
                 <div class="flex gap-2 items-center animate-pulse-grow">
                     <svg class="text-warning"  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round" ><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M15 16l4 -4" /><path d="M15 8l4 4" /></svg>
-                    <span class="text-warning font-medium text-lg">Explore Our Services</span>
+                    <a class="text-warning font-medium text-lg cursor-pointer">Explore Our Services</a>
                 </div>
             </div>
         </div>
     </div>
 </template>
+
+<script setup lang="ts">
+import asset from '../../../../assets/asset';
+
+</script>

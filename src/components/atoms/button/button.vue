@@ -1,5 +1,5 @@
 <template>
-    <button class="bg-slate-700 text-slate-100 text-center rounded-sm py-3 px-8 font-medium" :class="class_cs">{{label}}</button>
+    <button class="bg-slate-700 text-slate-100 text-center rounded-sm py-3 px-8 font-medium cursor-pointer" :class="class_cs">{{label}}</button>
 </template>
 
 <script lang="ts" setup>
