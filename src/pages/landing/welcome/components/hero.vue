@@ -1,5 +1,5 @@
 <template>
-    <section class="h-screen bg-primary lg:h-auto lg:pt-64 lg:pb-8 bg-size-[100%] bg-no-repeat" :style="{ backgroundImage: `url(${asset.imgBGHero})`, backgroundPosition: '0px -70rem' }">
+    <section class="h-screen bg-primary lg:h-auto lg:pt-64 lg:pb-8 bg-size-[100%] bg-no-repeat" :style="{ backgroundImage: `url(${asset.imgBGHero})`, backgroundPosition: '0px -50rem' }">
         <div class="flex relative flex-col justify-end md:justify-start space-y-2 lg:space-y-0 h-full lg:h-auto lg:rounded-[24px] px-0 lg:px-44">
             <div class="flex mt-0 md:mt-56 lg:mt-0">
                 <div class="flex flex-col space-y-2 md:space-y-5 justify-start lg:justify-center md:items-start">
