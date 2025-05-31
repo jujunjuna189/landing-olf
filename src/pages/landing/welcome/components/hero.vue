@@ -9,7 +9,7 @@
                 <p class="text-white text-xs md:text-base lg:text-xs xl:text-base text-center md:text-left leading-4 md:leading-relaxed w-[50%]">
                     Ono Law Firm is a leading law firm in Jakarta, Indonesia, dedicated to providing Handling Various Legal Issues, Including Corporate, Personal, and Individual Matters, Ono and Associate Focuses on Business Law, Helping Companies Meet Their Legal Needs...
                 </p>
-                <button class="flex bg-primary/30 mt-2 md:mt-0 mx-auto md:mx-0 rounded-sm py-2 px-6 cursor-pointer font-medium text-white text-xs md:text-base lg:text-xs xl:text-base border border-warning hover:border-[#FFC8AA] transition duration-1000 ease-out">
+                <button @click="router.push('/#form')" class="flex bg-primary/30 mt-2 md:mt-0 mx-auto md:mx-0 rounded-sm py-2 px-6 cursor-pointer font-medium text-white text-xs md:text-base lg:text-xs xl:text-base border border-warning hover:border-[#FFC8AA] transition duration-1000 ease-out">
                     Schedule a Consultation
                 </button>
                 </div>
@@ -30,6 +30,9 @@
 import 'vue3-carousel/carousel.css';
 import { Carousel, Slide } from 'vue3-carousel';
 import asset from '../../../../assets/asset';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
 
 const carouselConfig = {
     itemsToShow: 7,

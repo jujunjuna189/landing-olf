@@ -4,35 +4,19 @@
             <h2 class="text-4xl font-semibold text-secondary">Get In Touch With OLF</h2>
             <div class="border-t-2 w-16 border-secondary"></div>
         </div>
-        <div class="pr-5">
+        <div class="pr-5 flex flex-col h-full">
             <div class="mt-8">
                 <span class="text-secondary font-bold text-base">Address Office 1</span>
                 <div class="flex gap-2 items-start mt-3">
                     <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg>
                     <p class="font-normal">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Jl.Wijaya I No. 71, Petogogan, Jakarta Selatan, DKI Jakarta, 12170
                     </p>
                 </div>
                 <div class="mt-3">
                     <div class="flex gap-2 items-center">
                         <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
-                        <span class="">(+62) 81297551925</span>
-                    </div>
-                    <div class="w-60 border-t-1 border-secondary mt-2"></div>
-                </div>
-            </div>
-            <div class="mt-5">
-                <span class="text-secondary font-bold text-base">Address Office 2</span>
-                <div class="flex gap-2 items-start mt-3">
-                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg>
-                    <p class="font-normal">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    </p>
-                </div>
-                <div class="mt-3">
-                    <div class="flex gap-2 items-center">
-                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
-                        <span class="">(+62) 81297551925</span>
+                        <span class="">(+62) 822 4040 6112</span>
                     </div>
                     <div class="w-60 border-t-1 border-secondary mt-2"></div>
                 </div>

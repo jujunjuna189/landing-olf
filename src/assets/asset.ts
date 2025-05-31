@@ -13,6 +13,16 @@ import imgBGHero from './image/bg-hero.png'
 import imgBGService from './image/bg-service.jpeg'
 
 import prsn1 from "./person/1.jpg"
+import prsnProfile1 from "./person/profile1.png"
+import prsnProfile2 from "./person/profile2.png"
+import prsnProfile3 from "./person/profile3.png"
+import prsnProfile4 from "./person/profile4.png"
+import prsnProfile5 from "./person/profile5.png"
+import prsnProfile6 from "./person/profile6.png"
+import prsnProfile7 from "./person/profile7.png"
+import prsnProfile8 from "./person/profile8.png"
+import prsnProfile9 from "./person/profile9.png"
+import prsnProfile10 from "./person/profile10.png"
 
 // Icon assets with 'ic' prefix
 import icAcquisition from "./icon/acquisition.png"
@@ -27,6 +37,9 @@ import icInheritance from "./icon/inheritance.png"
 import icInstitution from "./icon/institution.png"
 import icOilAndGasLaw from "./icon/oil-and-gas-law.png"
 import icRights from "./icon/rights.png"
+
+// Pattern
+import ptAbstrack from "./pattern/pattern.svg"
 
 const asset = {
     lg,
@@ -44,6 +57,16 @@ const asset = {
     imgBGService,
 
     prsn1,
+    prsnProfile1,
+    prsnProfile2,
+    prsnProfile3,
+    prsnProfile4,
+    prsnProfile5,
+    prsnProfile6,
+    prsnProfile7,
+    prsnProfile8,
+    prsnProfile9,
+    prsnProfile10,
 
     // icon assets with ic prefix
     icAcquisition,
@@ -58,6 +81,8 @@ const asset = {
     icInstitution,
     icOilAndGasLaw,
     icRights,
+
+    ptAbstrack,
 }
 
 export default asset

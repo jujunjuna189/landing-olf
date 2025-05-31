@@ -1,9 +1,10 @@
 <template>
-    <div class="py-20 pb-20 bg-slate-700">
+    <div class="py-20 pb-20 bg-primary overflow-hidden relative">
+        <img :src="asset.ptAbstrack" alt="pattern" class="absolute -top-20 right-0 opacity-7 bottom-0 h-[50rem] rotate-45">
         <div class="grid grid-cols-3">
             <div class="flex flex-col justify-between pl-20">
                 <div class="flex gap-5 items-center">
-                    <div class="w-36 h-3w-36 brightness-800 contrast-8 rounded-full">
+                    <div class="w-36 h-3w-36 brightness-800 contrast-20 rounded-full">
                         <img :src="asset.lg" alt="logo-olf">
                     </div>
                     <div class="uppercase">
@@ -12,7 +13,7 @@
                 </div>
                 <div class="flex">
                     <div>
-                        <span class="text-slate-200 text-lg">contact@.co.id</span>
+                        <span class="text-slate-200 text-lg">info@onolawfirm.com</span>
                         <div class="border-t-1 border-secondary mt-2"></div>
                     </div>
                 </div>
@@ -20,7 +21,7 @@
             <div>
                 <div class="grid grid-cols-2">
                     <div>
-                        <span class="text-secondary font-bold text-base">Sitemap</span>
+                        <span class="text-warning font-bold text-base">Sitemap</span>
                         <ul class="text-slate-200">
                             <router-link v-for="(item, i) in menuData" :key="`menu-${i}`" :to="item.path"
                                 class="hover:text-primary transition-all" active-class="font-normal uppercase"
@@ -30,7 +31,7 @@
                         </ul>
                     </div>
                     <div>
-                        <span class="text-secondary font-bold text-base">Explore</span>
+                        <span class="text-warning font-bold text-base">Explore</span>
                         <ul class="text-slate-200">
                             <router-link v-for="(item, i) in menuData" :key="`menu-${i}`" :to="item.path"
                                 class="hover:text-primary transition-all" active-class="font-normal uppercase"
@@ -46,28 +47,18 @@
                     </div>
                 </div>
             </div>
-            <div class="pr-5">
+            <div class="pr-5 flex flex-col">
                 <div>
-                    <span class="text-secondary font-bold text-base">Address Office</span>
-                    <p class="text-slate-100 font-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <span class="text-warning font-bold text-base">Address Office</span>
+                    <p class="text-slate-100 font-medium">Jl.Wijaya I No. 71, Petogogan, Jakarta Selatan, DKI Jakarta, 12170</p>
                     <div class="flex">
                         <div>
-                            <span class="text-slate-200">(+62) 81297551925</span>
+                            <span class="text-slate-200">(+62) 822 4040 6112</span>
                             <div class="border-t-1 border-secondary mt-2"></div>
                         </div>
                     </div>
                 </div>
-                <div class="mt-1">
-                    <span class="text-secondary font-bold text-base">Address Office 2</span>
-                    <p class="text-slate-100 font-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                    <div class="flex">
-                        <div>
-                            <span class="text-slate-200">(+62) 81297551925</span>
-                            <div class="border-t-1 border-secondary mt-2"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="h-14"></div>
+                <div class="h-14 grow"></div>
                 <div>
                     <span class="text-white">Copyright &copy; {{new Date().getFullYear()}} OLF. All rights reserved.</span>
                 </div>

@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@layer utilities {
+  .shadow-all {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+}
+
 @theme {
   --color-primary: #2B358D;
   --color-secondary: #ba916a;

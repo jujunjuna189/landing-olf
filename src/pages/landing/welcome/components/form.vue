@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-5 bg-linear-to-r from-primary to-blue-800 py-16 px-10">
+    <div class="grid grid-cols-5 bg-linear-to-r from-primary to-primary py-16 px-10" id="form">
         <div class="col-span-3 flex justify-center items-center">
             <div class="flex justify-center items-center">
                 <div class="flex flex-col justify-center text-justify pl-20">
