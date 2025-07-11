@@ -11,8 +11,8 @@
         </div>
     </div>
     <div class="pt-4 pb-24 px-8">
-        <div class="grid grid-cols-3 gap-6">
-            <div v-for="(item, i) in services" :key="i">
+        <div class="flex flex-wrap gap-7 justify-center">
+            <div v-for="(item, i) in services" :key="i" class="max-w-[25rem]">
                 <div class="bg-stone-100 py-10 h-full text-center px-10">
                     <div class=" px-5">
                         <div class="flex justify-center">

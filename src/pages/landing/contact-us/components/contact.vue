@@ -1,7 +1,7 @@
 <template>
     <div class="col-span-3">
         <div class="flex gap-2 items-center">
-            <h2 class="text-4xl font-semibold text-secondary">Get In Touch With OLF</h2>
+            <h2 class="text-4xl font-semibold text-secondary">Get In Touch With <br />Ono Law Firm</h2>
             <div class="border-t-2 w-16 border-secondary"></div>
         </div>
         <div class="pr-5 flex flex-col h-full">

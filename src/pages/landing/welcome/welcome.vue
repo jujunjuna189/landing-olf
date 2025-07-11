@@ -8,7 +8,6 @@
         <Blogs/>
         <Description/>
         <Form/>
-        <Suscribetion/>
     </LandingLayout>
 </template>
 
@@ -21,6 +20,5 @@ import Partners from "./components/partners.vue";
 import Services from "./components/services.vue";
 import Blogs from "./components/blogs.vue";
 import Description from "./components/description.vue";
-import Suscribetion from "../../../components/molecules/footer/suscribetion.vue";
 import Form from "./components/form.vue";
 </script>

@@ -3,7 +3,7 @@
         <div>
             <div class="flex gap-5">
                 <div class="border-t-2 border-secondary w-20 h-6 mt-4 ml-10 mr-8"></div>
-                <span class="text-4xl font-semibold text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                <span class="text-4xl font-semibold text-secondary">Ono Law Firm: Trusted Legal Solutions for Your Business.</span>
             </div>
         </div>
         <div>

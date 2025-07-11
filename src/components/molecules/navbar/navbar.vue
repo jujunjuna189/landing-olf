@@ -1,12 +1,12 @@
 <template>
     <div class="sticky top-0 z-10">
         <div class="flex bg-white items-center border-b">
-            <div class="flex gap-3 items-center w-80 justify-center py-2 border-r">
+            <div class="flex items-center w-96 justify-center py-2 border-r">
                 <div class="w-20 h-20  rounded-full">
                     <img :src="asset.lg" alt="logo-olf">
                 </div>
                 <div class="uppercase">
-                    <span class="font-semibold text-3xl">OLF</span>
+                    <span class="font-semibold text-3xl">ONO LAW FIRM</span>
                 </div>
             </div>
             <div class="grow">

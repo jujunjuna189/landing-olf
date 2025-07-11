@@ -8,7 +8,7 @@
         </div>
         <div class="">
             <div class="py-7 px-10">
-                <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                <p class="text-center">Ono Law Firm dipercaya oleh beragam klien—individu, pemilik usaha, dan entitas korporasi—yang menginginkan kepastian dan ketenangan dalam urusan hukum. Baik dalam menghadapi regulasi yang kompleks, melindungi kepentingan bisnis, maupun menyelesaikan sengketa, klien kami mengandalkan keahlian, kerahasiaan, dan komitmen kami untuk mencapai hasil yang efektif.</p>
             </div>
         </div>
     </div>

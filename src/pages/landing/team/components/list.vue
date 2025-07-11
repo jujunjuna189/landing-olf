@@ -1,8 +1,8 @@
 <template>
     <div class="px-14 my-8">
-        <h2 class="text-4xl font-semibold text-secondary mt-8">Internal</h2>
-        <div class="grid grid-cols-4 gap-7 mt-5">
-            <div v-for="(item, i) in team" :key="i">
+        <h2 class="text-4xl font-semibold text-secondary mt-8 text-center">Internal</h2>
+        <div class="flex flex-wrap gap-7 justify-center mt-5">
+            <div v-for="(item, i) in team" :key="i" class="max-w-[18rem]">
                 <ModalProfile :pocket="item">
                     <div class="relative">
                         <div class="bg-slate-300 aspect-square hover:-m-5 hover:shadow transition-all">
@@ -19,9 +19,9 @@
     </div>
     <hr class="border-t border-stone-200"/>
     <div class="px-14 my-8">
-        <h2 class="text-4xl font-semibold text-secondary mt-8">Partner</h2>
-        <div class="grid grid-cols-4 gap-7 mt-5">
-            <div v-for="(item, i) in partner" :key="i">
+        <h2 class="text-4xl font-semibold text-secondary mt-8 text-center">Partner</h2>
+        <div class="flex flex-wrap gap-7 justify-center mt-5">
+            <div v-for="(item, i) in partner" :key="i" class="max-w-[18rem]">
                 <ModalProfile :pocket="item">
                     <div class="relative">
                         <div class="bg-slate-300 aspect-square hover:-m-5 hover:shadow transition-all">

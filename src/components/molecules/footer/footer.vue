@@ -3,12 +3,12 @@
         <img :src="asset.ptAbstrack" alt="pattern" class="absolute -top-20 right-0 opacity-7 bottom-0 h-[50rem] rotate-45">
         <div class="grid grid-cols-3">
             <div class="flex flex-col justify-between pl-20">
-                <div class="flex gap-5 items-center">
-                    <div class="w-36 h-3w-36 brightness-800 contrast-20 rounded-full">
+                <div class="flex items-center">
+                    <div class="w-36 h-3w-36 brightness-800 contrast-90 rounded-full">
                         <img :src="asset.lg" alt="logo-olf">
                     </div>
                     <div class="uppercase">
-                        <span class="font-semibold text-3xl text-white">OLF</span>
+                        <span class="font-semibold text-3xl text-white">ONO LAW FIRM</span>
                     </div>
                 </div>
                 <div class="flex">

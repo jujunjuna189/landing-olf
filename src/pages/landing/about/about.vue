@@ -3,7 +3,6 @@
         <Description/>
         <Awards/>
         <Clients/>
-        <Suscribetion/>
     </LandingLayout>
 </template>
 
@@ -12,5 +11,4 @@ import LandingLayout from '../../../components/molecules/layout/landing-layout.v
 import Description from './components/description.vue';
 import Awards from './components/awards.vue';
 import Clients from './components/clients.vue';
-import Suscribetion from "../../../components/molecules/footer/suscribetion.vue";
 </script>

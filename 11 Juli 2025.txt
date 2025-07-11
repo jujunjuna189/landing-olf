@@ -1,0 +1,33 @@
+Ono Law Firm
+
+Logo => hilangin tulisan ono law firm yang kecil => Done
+Text Logo => di besaran disesuakan => Done
+
+Content => Data asli asal sesuai context
+Font di samain dengan contoh => pake mirip
+
+Foto section => posisi center => Done
+
+Berita nampilkan berita dari api
+
+Download our profile => pake pdf yang kemarin dikirim
+
+Konsultasi dikirim ke email
+
+Our new letter => di hide => done
+
+Cs => ke nomor wa yang ada di address
+
+Award => konfirmasi lagi
+
+Our service => bikin center => Done
+
+Expertise => generate AI => done
+
+Our team => generate Ai => done
+
+Search team => hide => done
+
+Our klien => generate Ai => done
+
+OLF => Ono Law Firm => Done
