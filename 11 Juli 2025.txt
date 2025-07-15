@@ -3,14 +3,14 @@ Ono Law Firm
 Logo => hilangin tulisan ono law firm yang kecil => Done
 Text Logo => di besaran disesuakan => Done
 
-Content => Data asli asal sesuai context
-Font di samain dengan contoh => pake mirip
+Content => Data asli asal sesuai context => Done
+Font di samain dengan contoh => pake mirip => done
 
 Foto section => posisi center => Done
 
 Berita nampilkan berita dari api
 
-Download our profile => pake pdf yang kemarin dikirim
+Download our profile => pake pdf yang kemarin dikirim => Done
 
 Konsultasi dikirim ke email
 

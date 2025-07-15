@@ -41,6 +41,9 @@ import icRights from "./icon/rights.png"
 // Pattern
 import ptAbstrack from "./pattern/pattern.svg"
 
+// File
+import fileProfile from "./file/profile.pdf";
+
 const asset = {
     lg,
     lg1,
@@ -83,6 +86,9 @@ const asset = {
     icRights,
 
     ptAbstrack,
+
+    // File
+    fileProfile,
 }
 
 export default asset
