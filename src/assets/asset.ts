@@ -13,6 +13,7 @@ import imgBGHero from './image/bg-hero.png'
 import imgBGService from './image/bg-service.jpeg'
 
 import prsn1 from "./person/1.jpg"
+import prsn2 from "./person/2.png"
 import prsnProfile1 from "./person/profile1.png"
 import prsnProfile2 from "./person/profile2.png"
 import prsnProfile3 from "./person/profile3.png"
@@ -41,6 +42,17 @@ import icRights from "./icon/rights.png"
 // Pattern
 import ptAbstrack from "./pattern/pattern.svg"
 
+// Client
+import log1 from "./logo/logo-client/1.png"
+import logDmt from "./logo/logo-client/dmt.png"
+import logGkb from "./logo/logo-client/gkb.png"
+import logIb from "./logo/logo-client/ib.png"
+import logMmp from "./logo/logo-client/mmp.png"
+import logTnt from "./logo/logo-client/tnt.png"
+import logTrinitan from "./logo/logo-client/trinitan.png"
+import logNipress from "./logo/logo-client/nipress.png"
+import logSky from "./logo/logo-client/sky.png"
+
 // File
 import fileProfile from "./file/profile.pdf";
 
@@ -60,6 +72,7 @@ const asset = {
     imgBGService,
 
     prsn1,
+    prsn2,
     prsnProfile1,
     prsnProfile2,
     prsnProfile3,
@@ -89,6 +102,17 @@ const asset = {
 
     // File
     fileProfile,
+
+    // Client
+    log1,
+    logDmt,
+    logGkb,
+    logIb,
+    logMmp,
+    logTnt,
+    logTrinitan,
+    logNipress,
+    logSky,
 }
 
 export default asset

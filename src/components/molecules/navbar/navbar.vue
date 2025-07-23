@@ -9,7 +9,7 @@
                     <span class="font-semibold text-3xl">ONO LAW FIRM</span>
                 </div>
             </div>
-            <div class="grow">
+            <div class="grow hidden lg:block">
                 <nav class="hidden lg:block">
                     <ul class="flex justify-center space-x-10 list-none">
                         <router-link v-for="(item, i) in menuData" :key="`menu-${i}`" :to="item.path"

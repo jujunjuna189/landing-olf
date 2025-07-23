@@ -1,6 +1,24 @@
 <template>
     <div class="px-14 my-8">
-        <h2 class="text-4xl font-semibold text-secondary mt-8 text-center">Internal</h2>
+        <h2 class="text-4xl font-semibold text-secondary mt-8 text-center">Managing Partner</h2>
+        <div class="flex flex-wrap gap-7 justify-center mt-5">
+            <div v-for="(item, i) in managingPartner" :key="i" class="max-w-[18rem]">
+                <ModalProfile :pocket="item">
+                    <div class="relative">
+                        <div class="bg-slate-300 aspect-square hover:-m-5 hover:shadow transition-all">
+                            <img :src="item.image" :alt="item.name" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex flex-col text-center leading-[18px] mt-5">
+                            <span class="font-semibold text-slate-700">{{ item.name }}</span>
+                            <span class="text-secondary font-medium text-sm">{{ item.position }}</span>
+                        </div>
+                    </div>
+                </ModalProfile>
+            </div>
+        </div>
+    </div>
+    <div class="px-14 my-8">
+        <h2 class="text-4xl font-semibold text-secondary mt-8 text-center">Advisor</h2>
         <div class="flex flex-wrap gap-7 justify-center mt-5">
             <div v-for="(item, i) in team" :key="i" class="max-w-[18rem]">
                 <ModalProfile :pocket="item">
@@ -18,6 +36,24 @@
         </div>
     </div>
     <hr class="border-t border-stone-200"/>
+    <div class="px-14 my-8">
+        <h2 class="text-4xl font-semibold text-secondary mt-8 text-center">Senior Partner</h2>
+        <div class="flex flex-wrap gap-7 justify-center mt-5">
+            <div v-for="(item, i) in seniorPartner" :key="i" class="max-w-[18rem]">
+                <ModalProfile :pocket="item">
+                    <div class="relative">
+                        <div class="bg-slate-300 aspect-square hover:-m-5 hover:shadow transition-all">
+                            <img :src="item.image" :alt="item.name" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex flex-col text-center leading-[18px] mt-5">
+                            <span class="font-semibold text-slate-700">{{ item.name }}</span>
+                            <span class="text-secondary font-medium text-sm">{{ item.position }}</span>
+                        </div>
+                    </div>
+                </ModalProfile>
+            </div>
+        </div>
+    </div>
     <div class="px-14 my-8">
         <h2 class="text-4xl font-semibold text-secondary mt-8 text-center">Partner</h2>
         <div class="flex flex-wrap gap-7 justify-center mt-5">
@@ -42,6 +78,21 @@
 import asset from '../../../../assets/asset';
 import ModalProfile from './modal-profile.vue';
 
+const managingPartner = [
+    {
+    name: "KP JAKSON TANDIONO WIRYONAGORO, BSa., S.H",
+    position: "Managing Partner",
+    image: asset.prsnProfile2,
+    overview: `
+        <ul class="list-disc pl-5 space-y-1">
+            <li><b>Managing Partner</b> of Ono Law Firm since 2020</li>
+            <li><b>Head and/or member of several companies</b> in Indonesia that operate in renewable technology</li>
+            <li>A <b>Business Administration Finance</b> graduate from University of Southern California, Los Angeles</li>
+            <li><b>Dean’s List award holder</b> from Santa Monica College for two consecutive years (Fall 1994 and Spring 1995)</li>
+        </ul>
+    `,
+  },
+];
 
 const team = [
   {
@@ -58,20 +109,7 @@ const team = [
     `,
   },
   {
-    name: "Jackson Tandiono",
-    position: "Managing Partner",
-    image: asset.prsnProfile2,
-    overview: `
-        <ul class="list-disc pl-5 space-y-1">
-            <li><b>Managing Partner</b> of Ono Law Firm since 2020</li>
-            <li><b>Head and/or member of several companies</b> in Indonesia that operate in renewable technology</li>
-            <li>A <b>Business Administration Finance</b> graduate from University of Southern California, Los Angeles</li>
-            <li><b>Dean’s List award holder</b> from Santa Monica College for two consecutive years (Fall 1994 and Spring 1995)</li>
-        </ul>
-    `,
-  },
-  {
-    name: "Kevin Sofjan",
+    name: "Kevin Sofjan, S.H., ACI.ARB., C.L.I., C.P.L., C.P.L.E",
     position: "Advisor",
     image: asset.prsnProfile3,
     overview: `
@@ -97,57 +135,11 @@ const team = [
         standing as a proficient legal professional.</p>
     `,
   },
-  {
-    name: "Hasbullah Alimuddin Hakim",
-    position: "Senior Partner",
-    image: asset.prsnProfile4,
-    overview: `
-        <p><b>Hasbullah Alimuddin Hakim</b> is a Partner at ONO Law Firm, 
-        specialist of litigation.</p>
-        <br/>
-        <p>He is a prominent Indonesian lawyer known for his extensive 
-        expertise in legal practice and his significant contributions to 
-        legal education and discourse.</p>
-    `,
-    experience: `
-        <p>Hasbullah has a robust background in handling complex 
-        legal cases, particularly in criminal law and human rights.</p>
-        <br/>
-        <p>His career is marked by numerous successful 
-        representations and a strong commitment to justice and 
-        legal integrity.</p>
-    `,
-  },
 ];
 
-const partner = [
-    {
-    name: "Widia Rudiaty Elfa",
-    position: "Senior Partner",
-    image: asset.prsnProfile5,
-    overview: `
-        <p><b>Widya Radiaty Elfa</b> is a Partner at ONO Law Firm, 
-        specialist of legality. She is a distinguished legal 
-        professional with extensive expertise in various areas of 
-        Indonesian law.</p>
-        <br/>
-        <p>She serves as a prominent lawyer and notary, providing 
-        legal services and consultation to individuals and 
-        businesses.</p>
-    `,
-    experience: `
-        <p>Widya Radiaty Elfa has garnered significant experience 
-        throughout her career, with a particular focus on property 
-        law, commercial transactions, and corporate law.</p>
-        <br/>
-        <p>Her background includes roles in prestigious law firms 
-        and involvement in notable legal cases and transactions 
-        that have helped shape her reputation as a reliable legal 
-        advisor.</p>
-    `,
-  },
+const seniorPartner = [
   {
-    name: "Santo Vans Jeffri Sinaga",
+    name: "Santo Vans Jeffri Sinaga, S.H",
     position: "Senior Partner",
     image: asset.prsnProfile6,
     overview: `
@@ -172,48 +164,78 @@ const partner = [
     `,
   },
   {
-    name: "Rakhi",
-    position: "Associate",
-    image: asset.prsnProfile7,
+    name: "Hasbullah Alimuddin Hakim, S.H., M.H., C.P.L.E",
+    position: "Senior Partner",
+    image: asset.prsnProfile4,
     overview: `
-        <p>Rakhi, S.H., is a Junior Associate at ONO Law Firm. She is 
-        a distinguished legal professional known for her expertise 
-        and dedication in the field of law.</p>
+        <p><b>Hasbullah Alimuddin Hakim</b> is a Partner at ONO Law Firm, 
+        specialist of litigation.</p>
         <br/>
-        <p>She has developed a solid foundation in legal principles 
-        and practice with a focus on litigation and legal docu￾mentation.</p>
+        <p>He is a prominent Indonesian lawyer known for his extensive 
+        expertise in legal practice and his significant contributions to 
+        legal education and discourse.</p>
     `,
     experience: `
-        <p>Rakhi has been actively involved in various legal 
-        projects and cases in several law firms, 
-        demonstrating her capability in handling legal 
-        issue.</p>
+        <p>Hasbullah has a robust background in handling complex 
+        legal cases, particularly in criminal law and human rights.</p>
+        <br/>
+        <p>His career is marked by numerous successful 
+        representations and a strong commitment to justice and 
+        legal integrity.</p>
+    `,
+  },
+];
+
+const partner = [
+    {
+    name: "Widya Radiaty Elfa, S.H., M.Kn",
+    position: "NOTARY",
+    image: asset.prsnProfile5,
+    overview: `
+        <p><b>Widya Radiaty Elfa</b> is a Partner at ONO Law Firm, 
+        specialist of legality. She is a distinguished legal 
+        professional with extensive expertise in various areas of 
+        Indonesian law.</p>
+        <br/>
+        <p>She serves as a prominent lawyer and notary, providing 
+        legal services and consultation to individuals and 
+        businesses.</p>
+    `,
+    experience: `
+        <p>Widya Radiaty Elfa has garnered significant experience 
+        throughout her career, with a particular focus on property 
+        law, commercial transactions, and corporate law.</p>
+        <br/>
+        <p>Her background includes roles in prestigious law firms 
+        and involvement in notable legal cases and transactions 
+        that have helped shape her reputation as a reliable legal 
+        advisor.</p>
     `,
   },
   {
-    name: "Apriansyah Saputra",
-    position: "Associate",
-    image: asset.prsnProfile8,
+    name: "Astria Dewi, S.E",
+    position: "TAX",
+    image: asset.prsnProfile10,
     overview: `
-        <p>Apriansyah Saputra, is a distinguished legal profes￾sional with a focus on delivering top-notch legal 
-        services.</p>
+        <p>Astria Dewi is an excellent accounting graduate with a good 
+        knowledge about taxes and understands the regulations related to 
+        taxations.</p>
         <br/>
-        <p>He has a solid foundation in legal principles and a 
-        passion for justice, which she channels into her 
-        diverse areas of practice.</p>
+        <p>She has a solid legal taxes foundations and a passion in its field, and 
+        she channels it into her areas of practice.</p>
     `,
     experience: `
-        <p>Apriansyah has accrued extensive experience in 
-        various legal fields, demonstrating her versatility 
-        and deep understanding of the law. </p>
+        <p>Astria Dewi has an extensive experience regarding taxes 
+        fields, she has been a members of several financial based 
+        training that is recognized in Indonesia.</p>
         <br/>
-        <p>She has handled complex cases and provided legal 
-        counsel across different sectors, showcasing her 
-        adaptability and expertise.</p>
+        <p>Have been a member of Nipress Group since 2013, She has 
+        been handling corporate’s finances and taxes for several 
+        years and she is very good at her job.</p>
     `,
   },
   {
-    name: "Yusuf Woro Widhi Firmanto",
+    name: "Yusuf Woro Widhi Firmanto, S.H",
     position: "Legal Corporate",
     image: asset.prsnProfile9,
     overview: `
@@ -246,28 +268,6 @@ const partner = [
         <p><b>Junior Associate (May 2019 – Jan 2020)</b>
         Assisted in community-based legal projects, including land 
         permits, environmental law, and construction permits.</p>
-    `,
-  },
-  {
-    name: "Astria Dewi",
-    position: "TAX",
-    image: asset.prsnProfile10,
-    overview: `
-        <p>Astria Dewi is an excellent accounting graduate with a good 
-        knowledge about taxes and understands the regulations related to 
-        taxations.</p>
-        <br/>
-        <p>She has a solid legal taxes foundations and a passion in its field, and 
-        she channels it into her areas of practice.</p>
-    `,
-    experience: `
-        <p>Astria Dewi has an extensive experience regarding taxes 
-        fields, she has been a members of several financial based 
-        training that is recognized in Indonesia.</p>
-        <br/>
-        <p>Have been a member of Nipress Group since 2013, She has 
-        been handling corporate’s finances and taxes for several 
-        years and she is very good at her job.</p>
     `,
   },
 ];

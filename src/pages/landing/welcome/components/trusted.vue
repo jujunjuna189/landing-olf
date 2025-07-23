@@ -1,9 +1,9 @@
 <template>
-    <div class="grid grid-cols-2 py-24">
+    <div class="lg:grid lg:grid-cols-2 px-10 lg:px-0 lg:py-24">
         <div>
-            <div class="flex gap-5">
-                <div class="border-t-2 border-secondary w-20 h-6 mt-4 ml-10 mr-8"></div>
-                <span class="text-4xl font-semibold text-secondary">Ono Law Firm: Trusted Legal Solutions for Your Business.</span>
+            <div class="flex gap-1 lg:gap-5 items-center">
+                <div class="border-t-2 border-secondary w-5 lg:w-20 h-6 mt-4 lg:ml-10 lg:mr-8"></div>
+                <span class="text-base lg:text-4xl font-semibold text-secondary">Ono Law Firm: Trusted Legal Solutions for Your Business.</span>
             </div>
         </div>
         <div>

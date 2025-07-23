@@ -42,7 +42,7 @@
                         <div class="h-14"></div>
                         <div class="flex flex-col leading-4">
                             <span class="text-white font-bold">LinkedIn</span>
-                            <span class="text-white font-bold">Instagram</span>
+                            <a href="https://www.instagram.com/ono_attorneyatlaw" target="_blank" class="text-white font-bold">Instagram</a>
                         </div>
                     </div>
                 </div>

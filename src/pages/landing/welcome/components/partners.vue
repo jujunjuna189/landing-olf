@@ -29,11 +29,56 @@
 <script setup lang="ts">
 import asset from '../../../../assets/asset';
 
-
 const partner = [
-  {
-    name: "Widia Rudiaty Elfa",
-    position: "Senior Partner",
+    {
+        name: "Santo Vans Jeffri Sinaga, S.H",
+        position: "Senior Partner",
+        image: asset.prsnProfile6,
+        overview: `
+            <p><b>Santo Vans Jeffri Sinaga</b> is a Partner at ONO Law Firm, 
+            Specialist of Litigation.</p>
+            <br/>
+            <p>He is a dedicated Indonesian lawyer known for his expertise in 
+            legal consulting and advocacy. He has a strong background in 
+            providing legal services across various domains.</p>
+        `,
+        experience: `
+            <p>Jeffri has accumulated significant experience through his involvement 
+            in numerous legal cases and his work with several reputable law firms. 
+            His practical approach to legal issues has earned him respect in the 
+            legal community. </p>
+            <br/>
+            <p>In addition to his legal practice, Jeffri serves as legal advisor for a 
+            prominent cosmetic brand and actively assists with legal matters in 
+            the creative industry, including brand management and national 
+            music events. He also practices in the field of constitutional law at the 
+            Constitutional Court and is actively involved in providing legal aid.</p>
+        `,
+    },
+    {
+        name: "Hasbullah Alimuddin Hakim, S.H., M.H., C.P.L.E",
+        position: "Senior Partner",
+        image: asset.prsnProfile4,
+        overview: `
+            <p><b>Hasbullah Alimuddin Hakim</b> is a Partner at ONO Law Firm, 
+            specialist of litigation.</p>
+            <br/>
+            <p>He is a prominent Indonesian lawyer known for his extensive 
+            expertise in legal practice and his significant contributions to 
+            legal education and discourse.</p>
+        `,
+        experience: `
+            <p>Hasbullah has a robust background in handling complex 
+            legal cases, particularly in criminal law and human rights.</p>
+            <br/>
+            <p>His career is marked by numerous successful 
+            representations and a strong commitment to justice and 
+            legal integrity.</p>
+        `,
+    },
+    {
+    name: "Widya Radiaty Elfa, S.H., M.Kn",
+    position: "NOTARY",
     image: asset.prsnProfile5,
     overview: `
         <p><b>Widya Radiaty Elfa</b> is a Partner at ONO Law Firm, 
@@ -57,73 +102,29 @@ const partner = [
     `,
   },
   {
-    name: "Santo Vans Jeffri Sinaga",
-    position: "Senior Partner",
-    image: asset.prsnProfile6,
+    name: "Astria Dewi, S.E",
+    position: "TAX",
+    image: asset.prsnProfile10,
     overview: `
-        <p><b>Santo Vans Jeffri Sinaga</b> is a Partner at ONO Law Firm, 
-        Specialist of Litigation.</p>
+        <p>Astria Dewi is an excellent accounting graduate with a good 
+        knowledge about taxes and understands the regulations related to 
+        taxations.</p>
         <br/>
-        <p>He is a dedicated Indonesian lawyer known for his expertise in 
-        legal consulting and advocacy. He has a strong background in 
-        providing legal services across various domains.</p>
+        <p>She has a solid legal taxes foundations and a passion in its field, and 
+        she channels it into her areas of practice.</p>
     `,
     experience: `
-        <p>Jeffri has accumulated significant experience through his involvement 
-        in numerous legal cases and his work with several reputable law firms. 
-        His practical approach to legal issues has earned him respect in the 
-        legal community. </p>
+        <p>Astria Dewi has an extensive experience regarding taxes 
+        fields, she has been a members of several financial based 
+        training that is recognized in Indonesia.</p>
         <br/>
-        <p>In addition to his legal practice, Jeffri serves as legal advisor for a 
-        prominent cosmetic brand and actively assists with legal matters in 
-        the creative industry, including brand management and national 
-        music events. He also practices in the field of constitutional law at the 
-        Constitutional Court and is actively involved in providing legal aid.</p>
+        <p>Have been a member of Nipress Group since 2013, She has 
+        been handling corporate’s finances and taxes for several 
+        years and she is very good at her job.</p>
     `,
   },
   {
-    name: "Rakhi",
-    position: "Associate",
-    image: asset.prsnProfile7,
-    overview: `
-        <p>Rakhi, S.H., is a Junior Associate at ONO Law Firm. She is 
-        a distinguished legal professional known for her expertise 
-        and dedication in the field of law.</p>
-        <br/>
-        <p>She has developed a solid foundation in legal principles 
-        and practice with a focus on litigation and legal docu￾mentation.</p>
-    `,
-    experience: `
-        <p>Rakhi has been actively involved in various legal 
-        projects and cases in several law firms, 
-        demonstrating her capability in handling legal 
-        issue.</p>
-    `,
-  },
-  {
-    name: "Apriansyah Saputra",
-    position: "Associate",
-    image: asset.prsnProfile8,
-    overview: `
-        <p>Apriansyah Saputra, is a distinguished legal profes￾sional with a focus on delivering top-notch legal 
-        services.</p>
-        <br/>
-        <p>He has a solid foundation in legal principles and a 
-        passion for justice, which she channels into her 
-        diverse areas of practice.</p>
-    `,
-    experience: `
-        <p>Apriansyah has accrued extensive experience in 
-        various legal fields, demonstrating her versatility 
-        and deep understanding of the law. </p>
-        <br/>
-        <p>She has handled complex cases and provided legal 
-        counsel across different sectors, showcasing her 
-        adaptability and expertise.</p>
-    `,
-  },
-  {
-    name: "Yusuf Woro Widhi Firmanto",
+    name: "Yusuf Woro Widhi Firmanto, S.H",
     position: "Legal Corporate",
     image: asset.prsnProfile9,
     overview: `
@@ -156,28 +157,6 @@ const partner = [
         <p><b>Junior Associate (May 2019 – Jan 2020)</b>
         Assisted in community-based legal projects, including land 
         permits, environmental law, and construction permits.</p>
-    `,
-  },
-  {
-    name: "Astria Dewi",
-    position: "TAX",
-    image: asset.prsnProfile10,
-    overview: `
-        <p>Astria Dewi is an excellent accounting graduate with a good 
-        knowledge about taxes and understands the regulations related to 
-        taxations.</p>
-        <br/>
-        <p>She has a solid legal taxes foundations and a passion in its field, and 
-        she channels it into her areas of practice.</p>
-    `,
-    experience: `
-        <p>Astria Dewi has an extensive experience regarding taxes 
-        fields, she has been a members of several financial based 
-        training that is recognized in Indonesia.</p>
-        <br/>
-        <p>Have been a member of Nipress Group since 2013, She has 
-        been handling corporate’s finances and taxes for several 
-        years and she is very good at her job.</p>
     `,
   },
 ];

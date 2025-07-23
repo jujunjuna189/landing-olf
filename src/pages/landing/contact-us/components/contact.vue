@@ -1,5 +1,5 @@
 <template>
-    <div class="col-span-3">
+    <div class="col-span-3 mb-10">
         <div class="flex gap-2 items-center">
             <h2 class="text-4xl font-semibold text-secondary">Get In Touch With <br />Ono Law Firm</h2>
             <div class="border-t-2 w-16 border-secondary"></div>
@@ -41,9 +41,9 @@
                 <div class="border-t-2 w-16 border-secondary grow"></div>
             </div>
             <div class="flex gap-2 mt-2">
-                <div class="bg-slate-300 p-1 rounded-lg">
+                <a href="https://www.instagram.com/ono_attorneyatlaw" target="_blank" class="bg-slate-300 p-1 rounded-lg">
                     <svg  xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="text-slate-700"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M16.5 7.5v.01" /></svg>
-                </div>
+                </a>
                 <div class="bg-slate-300 p-1 rounded-lg">
                     <svg  xmlns="http://www.w3.org/2000/svg"  width="60"  height="60"  viewBox="0 0 24 24"  fill="currentColor"  class="text-slate-700"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 2a5 5 0 0 1 5 5v10a5 5 0 0 1 -5 5h-10a5 5 0 0 1 -5 -5v-10a5 5 0 0 1 5 -5zm-9 8a1 1 0 0 0 -1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0 -1 -1m6 0a3 3 0 0 0 -1.168 .236l-.125 .057a1 1 0 0 0 -1.707 .707v5a1 1 0 0 0 2 0v-3a1 1 0 0 1 2 0v3a1 1 0 0 0 2 0v-3a3 3 0 0 0 -3 -3m-6 -3a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" /></svg>
                 </div>

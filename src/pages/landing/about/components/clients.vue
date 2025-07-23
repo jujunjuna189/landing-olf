@@ -30,11 +30,15 @@ const carouselConfig = {
 }
 
 const clients = [
-  { logo: asset.lg1 },
-  { logo: asset.lg2 },
-  { logo: asset.lg3 },
-  { logo: asset.lg4 },
-  { logo: asset.lg5 },
+  { logo: asset.logNipress },
+  { logo: asset.logSky },
+  { logo: asset.log1 },
+  { logo: asset.logDmt },
+  { logo: asset.logGkb },
+  { logo: asset.logIb },
+  { logo: asset.logMmp },
+  { logo: asset.logTnt },
+  { logo: asset.logTrinitan },
 ];
 
 

@@ -23,7 +23,7 @@
             <!-- Image -->
             <div class="w-1/3 flex justify-center mask-b-from-20% mask-b-to-95%">
                 <img
-                :src="asset.prsn1"
+                :src="asset.prsn2"
                 alt="Jackson Tandiono"
                 class="max-w-sm w-full object-contain"
                 />
