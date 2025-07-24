@@ -1,11 +1,11 @@
 <template>
-    <div class="py-24">
-        <div class="flex gap-5 px-40 justify-center">
+    <div class="py-10 lg:py-24">
+        <div class="flex gap-5 lg:px-40 justify-center">
             <div class="border-t-2 border-secondary w-20 h-6 mt-4 ml-10 mr-8"></div>
-            <span class="text-4xl font-semibold text-secondary">Partner</span>
+            <span class="text-xl lg:text-4xl font-semibold text-secondary">Partner</span>
             <div class="border-t-2 border-secondary w-20 h-6 mt-4 ml-10 mr-8"></div>
         </div>
-        <div class="px-14 mt-10">
+        <div class="px-14 mt-5 lg:mt-10">
             <div class="flex flex-wrap gap-7 justify-center">
                 <div v-for="(item, i) in partner" :key="i" class="max-w-[18rem]">
                     <div class="relative">
@@ -20,8 +20,8 @@
                 </div>
             </div>
         </div>
-        <div class="px-10 text-center mt-10">
-            <span>At Ono Law Firm, we are trusted legal advisors and solution-oriented professionals for businesses of all sizes. Our experienced team offers deep expertise across various areas of practice, including corporate law, contract drafting and negotiation, intellectual property, employment law, and litigation. We have successfully supported clients in a wide range of legal matters—from establishing new companies to resolving complex commercial disputes.</span>
+        <div class="px-5 lg:px-10 text-center mt-10">
+            <span class="text-sm lg:text-base">At Ono Law Firm, we are trusted legal advisors and solution-oriented professionals for businesses of all sizes. Our experienced team offers deep expertise across various areas of practice, including corporate law, contract drafting and negotiation, intellectual property, employment law, and litigation. We have successfully supported clients in a wide range of legal matters—from establishing new companies to resolving complex commercial disputes.</span>
         </div>
     </div>
 </template>

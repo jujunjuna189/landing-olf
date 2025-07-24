@@ -1,11 +1,11 @@
 <template>
-    <div class="grid grid-cols-2">
+    <div class="lg:grid lg:grid-cols-2">
         <div class="bg-slate-200 grayscale brightness-100" :style="{ backgroundImage: `url(${asset.imgBGService})` }"></div>
-        <div class="py-40 bg-primary px-24">
+        <div class="py-5 lg:py-40 bg-primary px-5 lg:px-24">
             <div class="border-t-2 border-warning w-20 h-6"></div>
-            <span class="text-4xl font-semibold text-warning">Services</span>
+            <span class="text-xl lg:text-4xl font-semibold text-warning">Services</span>
             <div class="mt-7">
-                <p class="text-slate-200 text-base">At Ono Law Firm, we believe that a strong client relationship is the foundation of successful legal representation. We take the time to understand our clients' unique needs and goals, and we work closely with them to develop tailored legal strategies that achieve their desired outcomes. We are passionate about advocating for our clients' interests and protecting their rights.</p>
+                <p class="text-slate-200 text-sm lg:text-base">At Ono Law Firm, we believe that a strong client relationship is the foundation of successful legal representation. We take the time to understand our clients' unique needs and goals, and we work closely with them to develop tailored legal strategies that achieve their desired outcomes. We are passionate about advocating for our clients' interests and protecting their rights.</p>
             </div>
             <div class="flex mt-8 items-center">
                 <div class="flex gap-2 items-center animate-pulse-grow" @click="router.push('/our-service')">

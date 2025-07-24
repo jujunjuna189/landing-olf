@@ -1,12 +1,12 @@
 <template>
-    <section class="lg:h-screen bg-primary lg:pt-64 lg:pb-8 bg-size-[100%] bg-no-repeat" :style="{ backgroundImage: `url(${asset.imgBGHero})`, backgroundPosition: '0px -50rem' }">
-        <div class="flex relative flex-col justify-start lg:justify-start space-y-2 lg:space-y-0 h-full lg:h-auto lg:rounded-[24px] px-10 py-20 lg:py-0 lg:px-44">
+    <section class="lg:h-screen bg-primary lg:pt-64 lg:pb-8 bg-size-[100%] bg-no-repeat bg-[0px_-6rem] lg:bg-[0px_-50rem]" :style="{ backgroundImage: `url(${asset.imgBGHero})` }">
+        <div class="flex relative flex-col justify-start lg:justify-start space-y-2 lg:space-y-0 h-full lg:h-auto lg:rounded-[24px] px-5 py-10 lg:py-0 lg:px-44">
             <div class="flex mt-0 lg:mt-0">
                 <div class="flex flex-col space-y-2 lg:space-y-5 items-start lg:items-start">
-                    <p class="font-semibold text-left lg:text-left text-3xl lg:text-4xl xl:text-5xl leading-8 lg:mt-0 lg:leading-[54px] text-warning">
+                    <p class="font-semibold text-left lg:text-left text-2xl lg:text-4xl xl:text-5xl leading-8 lg:mt-0 lg:leading-[54px] text-warning">
                         <span class="text-white">ONO</span> LAW FIRM
                     </p>
-                    <p class="text-white text-xs lg:text-xs xl:text-base text-left lg:text-left leading-4 lg:leading-relaxed w-[50%]">
+                    <p class="text-white text-xs lg:text-xs xl:text-base text-left lg:text-left leading-4 lg:leading-relaxed lg:w-[50%]">
                         Ono Law Firm is a leading law firm in Jakarta, Indonesia, dedicated to providing Handling Various Legal Issues, Including Corporate, Personal, and Individual Matters, Ono and Associate Focuses on Business Law, Helping Companies Meet Their Legal Needs...
                     </p>
                     <div class="flex justify-start">

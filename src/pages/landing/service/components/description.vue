@@ -1,28 +1,28 @@
 <template>
-    <div class="py-18 px-5">
-        <div class="flex gap-18 items-center">
+    <div class="py-10 lg:py-18 px-5">
+        <div class="lg:flex lg:gap-18 lg:items-center">
             <div class="border-t-2 w-16 border-secondary"></div>
-            <span class="text-5xl font-semibold text-secondary">Our Service</span>
+            <span class="text-xl lg:text-5xl font-semibold text-secondary">Our Service</span>
         </div>
         <div class="">
-            <div class="py-7 pl-[7.5rem]">
-                <p class="text-justify">At Ono Law Firm, we believe that a strong client relationship is the foundation of successful legal representation. We take the time to understand our clients' unique needs and goals, and we work closely with them to develop tailored legal strategies that achieve their desired outcomes. We are passionate about advocating for our clients' interests and protecting their rights.</p>
+            <div class="py-7 lg:pl-[7.5rem]">
+                <p class="text-justify text-sm lg:text-base">At Ono Law Firm, we believe that a strong client relationship is the foundation of successful legal representation. We take the time to understand our clients' unique needs and goals, and we work closely with them to develop tailored legal strategies that achieve their desired outcomes. We are passionate about advocating for our clients' interests and protecting their rights.</p>
             </div>
         </div>
     </div>
-    <div class="pt-4 pb-24 px-8">
+    <div class="lg:pt-4 pb-24 px-5 lg:px-8">
         <div class="flex flex-wrap gap-7 justify-center">
             <div v-for="(item, i) in services" :key="i" class="max-w-[25rem]">
-                <div class="bg-stone-100 py-10 h-full text-center px-10">
-                    <div class=" px-5">
+                <div class="bg-stone-100 py-10 h-full text-center lg:px-10">
+                    <div class="px-5">
                         <div class="flex justify-center">
                             <div class="bg-warning/50 text-primary rounded-full h-20 w-20 flex justify-center items-center">
                                 <div v-html="item.icon" />
                             </div>
                         </div>
-                        <p class="font-bold text-xl mt-5">{{ item.title }}</p>
+                        <p class="font-bold mt-5 text-sm lg:text-base">{{ item.title }}</p>
                     </div>
-                    <div class="px-5 text-black/80 mt-5" v-html="item.description"></div>
+                    <div class="px-5 text-black/80 mt-5 text-sm lg:text-base" v-html="item.description"></div>
                 </div>
             </div>
         </div>

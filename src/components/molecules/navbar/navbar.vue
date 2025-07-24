@@ -1,12 +1,12 @@
 <template>
     <div class="sticky top-0 z-10">
-        <div class="flex bg-white items-center border-b">
-            <div class="flex items-center w-96 justify-center py-2 border-r">
-                <div class="w-20 h-20  rounded-full">
+        <div class="flex bg-white items-center justify-between border-b">
+            <div class="flex items-center lg:w-96 justify-center py-2 px-5 lg:px-0 border-r">
+                <div class="w-20 h-20 rounded-full">
                     <img :src="asset.lg" alt="logo-olf">
                 </div>
                 <div class="uppercase">
-                    <span class="font-semibold text-3xl">ONO LAW FIRM</span>
+                    <span class="font-semibold text-sm lg:text-3xl">ONO LAW FIRM</span>
                 </div>
             </div>
             <div class="grow hidden lg:block">
@@ -21,6 +21,9 @@
                         </router-link>
                     </ul>
                 </nav>
+            </div>
+            <div class="lg:hidden flex justify-center px-10">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="28"  height="28"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-menu-3"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 6h10" /><path d="M4 12h16" /><path d="M7 12h13" /><path d="M4 18h10" /></svg>
             </div>
         </div>
     </div>

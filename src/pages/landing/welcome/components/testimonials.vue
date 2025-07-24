@@ -1,10 +1,10 @@
 <template>
-    <div class="py-24 bg-stone-100">
+    <div class="py-5 px-5 lg:px-0 lg:py-24 bg-stone-100">
         <div class="flex flex-col justify-center items-center">
             <div class="border-t-2 w-14 border-secondary"></div>
-            <h3 class="text-4xl text-secondary font-semibold mt-12">We Cover Their Legal Need</h3>
+            <h3 class="text-xl lg:text-4xl text-secondary font-semibold mt-5 lg:mt-12">We Cover Their Legal Need</h3>
         </div>
-        <div class="px-28 py-24">
+        <div class="lg:px-28 lg:py-24">
             <Carousel v-bind="carouselConfig">
                 <Slide v-for="(item, i) in logos" :key="i">
                     <div class="carousel__item w-72 h-30 flex justify-center items-center">
@@ -13,15 +13,15 @@
                 </Slide>
             </Carousel>
         </div>
-        <div class="flex flex-col justify-center items-center mt-10">
-            <h3 class="text-4xl text-secondary font-semibold">Testimony</h3>
+        <div class="flex flex-col justify-center items-center lg:mt-10">
+            <h3 class="text-xl lg:text-4xl text-secondary font-semibold">Testimony</h3>
         </div>
-        <div class="px-28 py-10">
+        <div class="lg:px-28 lg:py-10">
             <Carousel v-bind="carouselConfigV2">
                 <Slide v-for="(item, i) in testimonials" :key="i">
-                    <div class="carousel__item w-[100%] min-h-52 flex flex-col justify-center items-center px-28 text-center">
-                        <p class="text-xl font-medium">"{{ item.message }}"</p>
-                        <div class="mt-8 text-slate-800 text-center">
+                    <div class="carousel__item w-[100%] min-h-52 flex flex-col justify-center items-center lg:px-28 text-center">
+                        <p class="text-sm lg:text-xl font-medium">"{{ item.message }}"</p>
+                        <div class="mt-8 text-slate-800 text-center text-sm lg:text-base">
                             <p>{{ item.name }}</p>
                             <p>{{ item.company }}</p>
                         </div>

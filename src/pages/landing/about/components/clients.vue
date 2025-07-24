@@ -1,12 +1,12 @@
 <template>
-    <div class="py-16 bg-stone-100">
+    <div class="py-8 lg:py-16 bg-stone-100">
         <div class="flex flex-col justify-center items-center">
-            <h3 class="text-5xl text-secondary font-semibold">Clients</h3>
+            <h3 class="text-xl lg:text-5xl text-secondary font-semibold">Clients</h3>
         </div>
-        <div class="px-10 pt-28 pb-10">
+        <div class="px-5 lg:px-10 pt-10 lg:pt-28 pb-10">
             <Carousel v-bind="carouselConfig">
                 <Slide v-for="(item, i) in clients" :key="i">
-                    <div class="carousel__item w-72 h-30 flex justify-center items-center grayscale brightness-200 contrast-2">
+                    <div class="carousel__item w-72 h-30 mx-2 lg:mx-0 flex justify-center items-center grayscale brightness-200 contrast-2">
                         <img :src="item.logo" alt="logo-client" class="w-full h-full object-contain ">
                     </div>
                 </Slide>

@@ -1,8 +1,8 @@
 <template>
-    <div class="col-span-2">
-        <div class="bg-primary py-5 px-3 rounded-sm">
+    <div class="lg:col-span-2">
+        <div class="bg-primary py-5 lg:px-3 rounded-sm">
             <div class="text-center">
-                <h3 class="text-4xl font-bold text-warning">ONO LAW FIRM <br /> CLIENT SUPPORT</h3>
+                <h3 class="text-xl lg:text-4xl font-bold text-warning">ONO LAW FIRM <br /> CLIENT SUPPORT</h3>
                 <div class="mt-3">
                     <span class="text-warning">Send US Message</span>
                 </div>

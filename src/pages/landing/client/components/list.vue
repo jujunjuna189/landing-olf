@@ -1,8 +1,8 @@
 <template>
-    <div class="mt-10 pb-28 flex justify-center">
-            <div class="flex flex-wrap justify-center gap-5">
+    <div class="lg:mt-10 pb-28 flex justify-center">
+            <div class="lg:flex lg:flex-wrap lg:justify-center gap-5 px-5 lg:px-0">
                 <div v-for="(item, i) in companies">
-                    <div class="w-64 bg-slate-100 aspect-video flex justify-center items-center text-center px-3 font-semibold text-slate-700">{{ item.name }}</div>
+                    <div class="w-[100%] lg:w-64 bg-slate-100 lg:aspect-video flex justify-center items-center text-center px-3 font-semibold text-slate-700 text-sm lg:text-base py-5 lg:py-0 my-2 lg:my-0">{{ item.name }}</div>
                 </div>
             </div>
         </div>

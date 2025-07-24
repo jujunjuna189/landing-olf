@@ -1,6 +1,6 @@
 <template>
     <LandingLayout>
-        <div class="grid grid-cols-5 gap-20 py-24 px-20 bg-slate-100">
+        <div class="lg:grid lg:grid-cols-5 lg:gap-20 py-5 lg:py-24 lg:px-20 bg-slate-100">
             <Contact/>
             <Form />
         </div>

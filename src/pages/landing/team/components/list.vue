@@ -1,6 +1,6 @@
 <template>
-    <div class="px-14 my-8">
-        <h2 class="text-4xl font-semibold text-secondary mt-8 text-center">Managing Partner</h2>
+    <div class="px-14 lg:my-8">
+        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary lg:mt-8 text-center">Managing Partner</h2>
         <div class="flex flex-wrap gap-7 justify-center mt-5">
             <div v-for="(item, i) in managingPartner" :key="i" class="max-w-[18rem]">
                 <ModalProfile :pocket="item">
@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="px-14 my-8">
-        <h2 class="text-4xl font-semibold text-secondary mt-8 text-center">Advisor</h2>
+        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary mt-8 text-center">Advisor</h2>
         <div class="flex flex-wrap gap-7 justify-center mt-5">
             <div v-for="(item, i) in team" :key="i" class="max-w-[18rem]">
                 <ModalProfile :pocket="item">
@@ -37,7 +37,7 @@
     </div>
     <hr class="border-t border-stone-200"/>
     <div class="px-14 my-8">
-        <h2 class="text-4xl font-semibold text-secondary mt-8 text-center">Senior Partner</h2>
+        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary mt-8 text-center">Senior Partner</h2>
         <div class="flex flex-wrap gap-7 justify-center mt-5">
             <div v-for="(item, i) in seniorPartner" :key="i" class="max-w-[18rem]">
                 <ModalProfile :pocket="item">
@@ -55,7 +55,7 @@
         </div>
     </div>
     <div class="px-14 my-8">
-        <h2 class="text-4xl font-semibold text-secondary mt-8 text-center">Partner</h2>
+        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary mt-8 text-center">Partner</h2>
         <div class="flex flex-wrap gap-7 justify-center mt-5">
             <div v-for="(item, i) in partner" :key="i" class="max-w-[18rem]">
                 <ModalProfile :pocket="item">

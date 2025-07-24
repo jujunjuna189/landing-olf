@@ -1,17 +1,17 @@
 <template>
-    <div class="py-20 pb-20 bg-primary overflow-hidden relative">
+    <div class="py-5 lg:py-20 pb-20 bg-primary overflow-hidden relative">
         <img :src="asset.ptAbstrack" alt="pattern" class="absolute -top-20 right-0 opacity-7 bottom-0 h-[50rem] rotate-45">
-        <div class="grid grid-cols-3">
-            <div class="flex flex-col justify-between pl-20">
+        <div class="lg:grid lg:grid-cols-3">
+            <div class="lg:flex lg:flex-col lg:justify-between lg:pl-20">
                 <div class="flex items-center">
-                    <div class="w-36 h-3w-36 brightness-800 contrast-90 rounded-full">
+                    <div class="w-36 brightness-800 contrast-90 rounded-full">
                         <img :src="asset.lg" alt="logo-olf">
                     </div>
                     <div class="uppercase">
-                        <span class="font-semibold text-3xl text-white">ONO LAW FIRM</span>
+                        <span class="font-semibold text-xl lg:text-3xl text-white">ONO LAW FIRM</span>
                     </div>
                 </div>
-                <div class="flex">
+                <div class="flex justify-center lg:justify-start">
                     <div>
                         <span class="text-slate-200 text-lg">info@onolawfirm.com</span>
                         <div class="border-t-1 border-secondary mt-2"></div>
@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div>
-                <div class="grid grid-cols-2">
+                <div class="grid grid-cols-2 px-5 lg:px-0 mt-5 lg:mt-0">
                     <div>
                         <span class="text-warning font-bold text-base">Sitemap</span>
                         <ul class="text-slate-200">
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pr-5 flex flex-col">
+            <div class="pr-5 flex flex-col px-5 lg:px-0 mt-5 lg:mt-0">
                 <div>
                     <span class="text-warning font-bold text-base">Address Office</span>
                     <p class="text-slate-100 font-medium">Jl.Wijaya I No. 71, Petogogan, Jakarta Selatan, DKI Jakarta, 12170</p>

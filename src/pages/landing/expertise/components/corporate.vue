@@ -1,9 +1,9 @@
 <template>
     <div class="py-5 px-5">
-        <div class="flex gap-18 items-center justify-center">
+        <div class="lg:flex lg:gap-18 lg:items-center lg:justify-center">
             <div class="flex flex-col items-center">
                 <div class="border-t-2 w-16 border-secondary"></div>
-                <span class="text-5xl font-semibold text-secondary mt-8">Corporate</span>
+                <span class="text-2xl lg:text-5xl font-semibold text-secondary lg:mt-8">Corporate</span>
             </div>
         </div>
         <div class="mt-10 flex justify-center">
