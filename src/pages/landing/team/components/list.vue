@@ -184,6 +184,13 @@ const seniorPartner = [
         legal integrity.</p>
     `,
   },
+  {
+    name: "M Bismar MH Tawari, S.H., M.H",
+    position: "Senior Partner",
+    image: asset.prsnProfile11,
+    overview: `-`,
+    experience: `-`,
+  },
 ];
 
 const partner = [

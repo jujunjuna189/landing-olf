@@ -24,6 +24,7 @@ import prsnProfile7 from "./person/profile7.png"
 import prsnProfile8 from "./person/profile8.png"
 import prsnProfile9 from "./person/profile9.png"
 import prsnProfile10 from "./person/profile10.png"
+import prsnProfile11 from "./person/profile11.png"
 
 // Icon assets with 'ic' prefix
 import icAcquisition from "./icon/acquisition.png"
@@ -83,6 +84,7 @@ const asset = {
     prsnProfile8,
     prsnProfile9,
     prsnProfile10,
+    prsnProfile11,
 
     // icon assets with ic prefix
     icAcquisition,
