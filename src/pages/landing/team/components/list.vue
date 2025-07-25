@@ -188,8 +188,23 @@ const seniorPartner = [
     name: "M Bismar MH Tawari, S.H., M.H",
     position: "Senior Partner",
     image: asset.prsnProfile11,
-    overview: `-`,
-    experience: `-`,
+    overview: `
+        <p><b>M Bismar MH Tawari</b>, is a distinguished legal profes￾sional with a focus on delivering top-notch legal 
+        services.</p>
+        <br/>
+        <p>He has a solid foundation in legal principles and a 
+        passion for justice, which she channels into her 
+        diverse areas of practice.</p>
+    `,
+    experience: `
+        <p>M Bismar MH Tawari has accrued extensive experience in 
+        various legal fields, demonstrating her versatility 
+        and deep understanding of the law. </p>
+        <br/>
+        <p>She has handled complex cases and provided legal 
+        counsel across different sectors, showcasing her 
+        adaptability and expertise.</p>
+    `,
   },
 ];
 
