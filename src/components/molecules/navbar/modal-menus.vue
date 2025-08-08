@@ -11,14 +11,17 @@
             <div class="flex justify-between">
             <div class="grow">
                 <div class="leading-3">
-                <span class="text-xl lg:text-3xl text-primary font-bold">Menus</span><br />
+                <span class="text-xl lg:text-3xl text-primary font-bold">{{ getLang('menus') }}</span><br />
                 </div>
             </div>
             <div v-on:click="toggleModal" class="cursor-pointer">
                 <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
             </div>
         </div>
-        <div class="mt-10">
+        <div class="mt-5 w-full">
+          <PopupMobileLang/>
+        </div>
+        <div class="mt-5">
             <ul class="list-none flex flex-col gap-5">
                 <router-link v-for="(item, i) in menuData" :key="`menu-${i}`" :to="item.path"
                     class="hover:text-primary transition-all font-semibold uppercase" :class="[
@@ -37,6 +40,8 @@
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import menu from "./navbar.interface.ts";
+import PopupMobileLang from './popup-mobile-lang.vue';
+import { getLang } from '../../../helper/language/language.ts';
 
 const menuData = menu;
 

@@ -2,19 +2,19 @@
     <div class="py-5 px-5 lg:px-0 lg:py-24 bg-stone-100">
         <div class="flex flex-col justify-center items-center">
             <div class="border-t-2 w-14 border-secondary"></div>
-            <h3 class="text-xl lg:text-4xl text-secondary font-semibold mt-5 lg:mt-12">We Cover Their Legal Need</h3>
+            <h3 class="text-xl lg:text-4xl text-secondary font-semibold mt-5 lg:mt-12">{{ getLang('main_title2') }}</h3>
         </div>
         <div class="lg:px-28 lg:py-24">
             <Carousel v-bind="carouselConfig">
                 <Slide v-for="(item, i) in logos" :key="i">
                     <div class="carousel__item w-72 h-30 flex justify-center items-center">
-                        <img :src="item.logo" alt="logo">
+                        <img :src="item.logo" alt="logo" class="object-contain">
                     </div>
                 </Slide>
             </Carousel>
         </div>
         <div class="flex flex-col justify-center items-center lg:mt-10">
-            <h3 class="text-xl lg:text-4xl text-secondary font-semibold">Testimony</h3>
+            <h3 class="text-xl lg:text-4xl text-secondary font-semibold">{{ getLang('main_title3') }}</h3>
         </div>
         <div class="lg:px-28 lg:py-10">
             <Carousel v-bind="carouselConfigV2">
@@ -36,6 +36,7 @@
 import 'vue3-carousel/carousel.css';
 import { Carousel, Slide } from 'vue3-carousel';
 import asset from '../../../../assets/asset';
+import { getLang } from '../../../../helper/language/language';
 
 const carouselConfig = {
     itemsToShow: 5,
@@ -55,19 +56,16 @@ const carouselConfigV2 = {
 }
 
 const logos = [
-    {
-        logo: asset.lg2,
-    },
-    {
-        logo: asset.lg3,
-    },
-    {
-        logo: asset.lg9,
-    },
-    {
-        logo: asset.lg8,
-    },
-]
+  { logo: asset.logNipress },
+  { logo: asset.logSky },
+  { logo: asset.log1 },
+  { logo: asset.logDmt },
+  { logo: asset.logGkb },
+  { logo: asset.logIb },
+  { logo: asset.logMmp },
+  { logo: asset.logTnt },
+  { logo: asset.logTrinitan },
+];
 
 const testimonials = [
   {

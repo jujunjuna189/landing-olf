@@ -3,7 +3,7 @@
         <div class="lg:flex lg:gap-18 lg:items-center lg:justify-center">
             <div class="flex flex-col items-center">
                 <div class="border-t-2 w-16 border-secondary"></div>
-                <span class="text-2xl lg:text-5xl font-semibold text-secondary lg:mt-8">Corporate</span>
+                <span class="text-2xl lg:text-5xl font-semibold text-secondary lg:mt-8">{{ getLang('expertise_title2') }}</span>
             </div>
         </div>
         <div class="mt-10 flex justify-center">
@@ -25,40 +25,41 @@
 
 <script setup lang="ts">
 import asset from '../../../../assets/asset';
+import { getLang } from '../../../../helper/language/language';
 
 
 const corporates = [
     {
         icon: asset.icOilAndGasLaw,
-        title: 'MINING LAW',
+        title: getLang('expertise_corporate_item1'),
     },
     {
         icon: asset.icCompliance,
-        title: 'LEGAL DUE DILIGENCE',
+        title: getLang('expertise_corporate_item2'),
     },
     {
         icon: asset.icInstitution,
-        title: 'CAPITAL MARKET',
+        title: getLang('expertise_corporate_item3'),
     },
     {
         icon: asset.icRights,
-        title: 'EMPLOYMENT/LABOR LAW',
+        title: getLang('expertise_corporate_item4'),
     },
     {
         icon: asset.icBankingLaw,
-        title: 'BANKRUPTCY, RESTRUCTURING AND LIQUIDATION',
+        title: getLang('expertise_corporate_item5'),
     },
     {
         icon: asset.icAcquisition,
-        title: 'MERGER AND ACQUISITION',
+        title: getLang('expertise_corporate_item6'),
     },
     {
         icon: asset.icFingerPrint,
-        title: 'WHITE COLLAR CRIME',
+        title: getLang('expertise_corporate_item7'),
     },
     {
         icon: asset.icAuction,
-        title: 'ETC,.',
+        title: getLang('expertise_corporate_item8'),
     },
 ];
 

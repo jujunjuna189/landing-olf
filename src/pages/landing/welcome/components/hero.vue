@@ -7,11 +7,11 @@
                         <span class="text-white">ONO</span> LAW FIRM
                     </p>
                     <p class="text-white text-xs lg:text-xs xl:text-base text-left lg:text-left leading-4 lg:leading-relaxed lg:w-[50%]">
-                        Ono Law Firm is a leading law firm in Jakarta, Indonesia, dedicated to providing Handling Various Legal Issues, Including Corporate, Personal, and Individual Matters, Ono and Associate Focuses on Business Law, Helping Companies Meet Their Legal Needs...
+                        {{ getLang('main_paragraph1') }}
                     </p>
                     <div class="flex justify-start">
                         <button @click="router.push('/#form')" class="flex bg-primary/30 mt-2 lg:mt-0 mx-auto lg:mx-0 rounded-sm py-2 px-6 cursor-pointer font-medium text-white text-xs lg:text-xs xl:text-base border border-warning hover:border-[#FFC8AA] transition duration-1000 ease-out">
-                            Schedule a Consultation
+                            {{ getLang('schedule_a_consultation') }}
                         </button>
                     </div>
                 </div>
@@ -26,6 +26,7 @@ import 'vue3-carousel/carousel.css';
 import { Carousel, Slide } from 'vue3-carousel';
 import asset from '../../../../assets/asset';
 import { useRouter } from 'vue-router';
+import { getLang } from '../../../../helper/language/language';
 
 const router = useRouter();
 

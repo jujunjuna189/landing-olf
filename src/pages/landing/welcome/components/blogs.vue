@@ -2,7 +2,7 @@
     <div class="py-10 lg:py-24 lg:pb-32">
         <div class="flex flex-col justify-center items-center">
             <div class="border-t-2 w-20 border-secondary"></div>
-            <h3 class="text-xl lg:text-4xl text-slate-800 font-semibold mt-5 lg:mt-12">Recent Update</h3>
+            <h3 class="text-xl lg:text-4xl text-slate-800 font-semibold mt-5 lg:mt-12">{{ getLang('main_title6') }}</h3>
         </div>
         <div class="px-5 lg:px-14 lg:grid lg:grid-cols-4 lg:gap-7 mt-10 lg:mt-28">
             <div v-for="(item, i) in news" :key="i">
@@ -14,7 +14,7 @@
                         <span class="font-semibold text-slate-700 text-xl">{{ clampText(item.title, 100) }}</span>
                         <a :href="item.link" target="_blank" class="flex gap-1 items-center mt-4 cursor-pointer" >
                             <div class="w-3 border-t-2 border-secondary"></div>
-                            <span class="text-secondary font-medium">Read More</span>
+                            <span class="text-secondary font-medium">{{ getLang('read_more') }}</span>
                         </a>
                     </div>
                 </div>
@@ -26,6 +26,7 @@
 <script setup lang="ts">
 import axios from 'axios';
 import { onMounted, reactive } from 'vue';
+import { getLang } from '../../../../helper/language/language';
 
 export interface NewsIF{
   thumbnail: string,

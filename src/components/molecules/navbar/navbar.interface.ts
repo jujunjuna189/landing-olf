@@ -1,4 +1,5 @@
 import { ref } from "vue";
+import { getLang } from "../../../helper/language/language";
 
 export interface NavbarIF {
     name: string;
@@ -8,37 +9,37 @@ export interface NavbarIF {
 
 const menu = ref<NavbarIF[]>([
     {
-        name: "Home",
+        name: getLang('home'),
         path: "/",
         icon: "",
     },
     {
-        name: "About",
+        name: getLang('about'),
         path: "/about",
         icon: "",
     },
     {
-        name: "Our Service",
+        name: getLang('our_service'),
         path: "/our-service",
         icon: "",
     },
     {
-        name: "Expertise",
+        name: getLang('expertise'),
         path: "/expertise",
         icon: "",
     },
     {
-        name: "Our Team",
+        name: getLang('our_team'),
         path: "/our-team",
         icon: "",
     },
     {
-        name: "Our Client",
+        name: getLang('our_client'),
         path: "/our-client",
         icon: "",
     },
     {
-        name: "Contact Us",
+        name: getLang('contact_us'),
         path: "/contact-us",
         icon: "",
     },

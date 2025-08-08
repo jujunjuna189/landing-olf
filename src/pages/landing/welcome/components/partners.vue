@@ -2,7 +2,7 @@
     <div class="py-10 lg:py-24">
         <div class="flex gap-5 lg:px-40 justify-center">
             <div class="border-t-2 border-secondary w-20 h-6 mt-4 ml-10 mr-8"></div>
-            <span class="text-xl lg:text-4xl font-semibold text-secondary">Partner</span>
+            <span class="text-xl lg:text-4xl font-semibold text-secondary">{{ getLang('main_title4') }}</span>
             <div class="border-t-2 border-secondary w-20 h-6 mt-4 ml-10 mr-8"></div>
         </div>
         <div class="px-14 mt-5 lg:mt-10">
@@ -21,13 +21,14 @@
             </div>
         </div>
         <div class="px-5 lg:px-10 text-center mt-10">
-            <span class="text-sm lg:text-base">At Ono Law Firm, we are trusted legal advisors and solution-oriented professionals for businesses of all sizes. Our experienced team offers deep expertise across various areas of practice, including corporate law, contract drafting and negotiation, intellectual property, employment law, and litigation. We have successfully supported clients in a wide range of legal matters—from establishing new companies to resolving complex commercial disputes.</span>
+            <span class="text-sm lg:text-base">{{ getLang('main_paragraph3') }}</span>
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
 import asset from '../../../../assets/asset';
+import { getLang } from '../../../../helper/language/language';
 
 const partner = [
     {

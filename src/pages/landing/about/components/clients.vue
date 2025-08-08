@@ -1,7 +1,7 @@
 <template>
     <div class="py-8 lg:py-16 bg-stone-100">
         <div class="flex flex-col justify-center items-center">
-            <h3 class="text-xl lg:text-5xl text-secondary font-semibold">Clients</h3>
+            <h3 class="text-xl lg:text-5xl text-secondary font-semibold">{{ getLang('about_title1') }}</h3>
         </div>
         <div class="px-5 lg:px-10 pt-10 lg:pt-28 pb-10">
             <Carousel v-bind="carouselConfig">
@@ -19,6 +19,7 @@
 import 'vue3-carousel/carousel.css';
 import { Carousel, Slide } from 'vue3-carousel';
 import asset from '../../../../assets/asset';
+import { getLang } from '../../../../helper/language/language';
 
 const carouselConfig = {
     itemsToShow: 5,

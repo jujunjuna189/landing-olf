@@ -2,19 +2,19 @@
     <div class="py-10 lg:py-18 px-5">
         <div class="lg:flex lg:gap-18 lg:items-center">
             <div class="border-t-2 w-16 border-secondary"></div>
-            <span class="text-xl lg:text-5xl font-semibold text-secondary">About</span>
+            <span class="text-xl lg:text-5xl font-semibold text-secondary">{{ getLang('about_title1') }}</span>
         </div>
         <div class="lg:grid lg:grid-cols-2">
             <div class="py-5 lg:py-7 lg:pl-[7.5rem] text-sm lg:text-base">
-                <p class="text-justify">Ono Law Firm is a leading law firm in Jakarta, Indonesia, dedicated to providing Handling Various Legal Issues, Including Corporate, Personal, and Individual Matters, Ono and Associate Focuses on Business Law, Helping Companies Meet Their Legal Needs. exceptional legal services to businesses and individuals.</p>
-                <p class="mt-2 text-justify">Founded in 2020, our team of experienced lawyers has a proven track record of success in a wide range of legal areas. We are committed to providing our clients with the highest quality legal representation and personalized attention to ensure their legal needs are met effectively and efficiently</p>
-                <p class="mt-2 text-justify">Founded in 2020, our team of experienced lawyers has a proven track record of success in a wide range of legal areas. We are committed to providing our clients with the highest quality legal representation and personalized attention to ensure their legal needs are met effectively and efficiently</p>
+                <p class="text-justify">{{ getLang('about_paragraph1') }}</p>
+                <p class="mt-2 text-justify">{{ getLang('about_paragraph2') }}</p>
+                <p class="mt-2 text-justify">{{ getLang('about_paragraph3') }}</p>
             </div>
             <div class="py-5 lg:py-7 lg:pl-24 lg:pr-10 text-sm lg:text-base">
-                <p class="text-justify">Ono Law Firm has been a trusted advisor and representative for various creative businesses and multinational companies, navigating their most challenging issues. Ono and Associate has a wide range of practice areas, including Dispute Resolution, Direct Investment, Corporate & Commercial, Intellectual Property, and Information Technology.</p>
-                <p class="mt-2 text-justify">Ono Law Firm combines leading professionals and experienced teams, supported by experts in their fields, and has developed a network of partnerships with institutions and experts. Our team of experienced lawyers is committed to providing our clients with the highest quality legal representation. </p>
-                <p class="mt-2 text-justify">Our lawyers are experts in their respective fields and have a deep understanding of the Indonesian legal system. We are also fluent in English and Indonesian, which allows us to communicate effectively with our clients from all over the world.</p>
-                <p class="mt-2 text-justify">We are committed to providing our clients with exceptional legal services that exceed their expectations. We are dedicated to building long-lasting relationships with our clients and helping them achieve their legal and business goals. </p>
+                <p class="text-justify">{{ getLang('about_paragraph4') }}</p>
+                <p class="mt-2 text-justify">{{ getLang('about_paragraph5') }} </p>
+                <p class="mt-2 text-justify">{{ getLang('about_paragraph6') }}</p>
+                <p class="mt-2 text-justify">{{ getLang('about_paragraph7') }}</p>
             </div>
         </div>
     </div>
@@ -33,18 +33,16 @@
             <div class="lg:w-2/3 lg:space-y-3">
                 <div class="text-5xl text-orange-500">“</div>
                 <p class="text-sm lg:text-base leading-relaxed">
-                As an entrepreneur I realize the importance of legal awareness.
-                Legal/Law holds a big portion to secure any part of our life,
-                whether it's personal or corporate matter.
+                {{ getLang('about_paragraph8') }}
                 </p>
                 <p class="text-sm lg:text-base leading-relaxed">
-                One important example of the law for companies is to regulate the company’s internal flow and to prevent the company from any legal scandals. Furthermore, in our everyday life law plays an important role so that every individual has limits in their actions and to protect the rights of each person.
+                {{ getLang('about_paragraph9') }}
                 </p>
                 <p class="text-sm lg:text-base leading-relaxed">
-                Therefore in 2021 I decided to open a law firm and form ONO LAW FIRM to be able to provide legal services that will make it easier for every party who becomes our client, be it individuals or companies.
+                {{ getLang('about_paragraph10') }}
                 </p>
                 <p class="text-sm lg:text-base leading-relaxed">
-                I have a great hopes that ONO LAW FIRM can carry out all its duties and functions well, and that in the future ONO LAW FIRM will continue to develop and be able to compete with other law firms.
+                {{ getLang('about_paragraph11') }}
                 </p>
 
                 <!-- Name and Title -->
@@ -59,5 +57,6 @@
 
 <script setup lang="ts">
 import asset from '../../../../assets/asset';
+import { getLang } from '../../../../helper/language/language';
 
 </script>

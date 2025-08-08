@@ -21,7 +21,7 @@
             <div>
                 <div class="grid grid-cols-2 px-5 lg:px-0 mt-5 lg:mt-0">
                     <div>
-                        <span class="text-warning font-bold text-base">Sitemap</span>
+                        <span class="text-warning font-bold text-base">{{ getLang('sitemap') }}</span>
                         <ul class="text-slate-200">
                             <router-link v-for="(item, i) in menuData" :key="`menu-${i}`" :to="item.path"
                                 class="hover:text-primary transition-all" active-class="font-normal uppercase"
@@ -31,7 +31,7 @@
                         </ul>
                     </div>
                     <div>
-                        <span class="text-warning font-bold text-base">Explore</span>
+                        <span class="text-warning font-bold text-base">{{ getLang('explore') }}</span>
                         <ul class="text-slate-200">
                             <router-link v-for="(item, i) in menuData" :key="`menu-${i}`" :to="item.path"
                                 class="hover:text-primary transition-all" active-class="font-normal uppercase"
@@ -49,7 +49,7 @@
             </div>
             <div class="pr-5 flex flex-col px-5 lg:px-0 mt-5 lg:mt-0">
                 <div>
-                    <span class="text-warning font-bold text-base">Address Office</span>
+                    <span class="text-warning font-bold text-base">{{ getLang('address_office') }}</span>
                     <p class="text-slate-100 font-medium">Jl.Wijaya I No. 71, Petogogan, Jakarta Selatan, DKI Jakarta, 12170</p>
                     <div class="flex">
                         <div>
@@ -69,6 +69,7 @@
 
 <script setup lang="ts">
 import asset from '../../../assets/asset';
+import { getLang } from '../../../helper/language/language';
 import menu from '../navbar/navbar.interface';
 
 const menuData = menu;

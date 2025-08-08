@@ -1,6 +1,6 @@
 <template>
     <div class="px-14 lg:my-8">
-        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary lg:mt-8 text-center">Managing Partner</h2>
+        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary lg:mt-8 text-center">{{ getLang('our_team_title2') }}</h2>
         <div class="flex flex-wrap gap-7 justify-center mt-5">
             <div v-for="(item, i) in managingPartner" :key="i" class="max-w-[18rem]">
                 <ModalProfile :pocket="item">
@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="px-14 my-8">
-        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary mt-8 text-center">Advisor</h2>
+        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary mt-8 text-center">{{ getLang('our_team_title3') }}</h2>
         <div class="flex flex-wrap gap-7 justify-center mt-5">
             <div v-for="(item, i) in team" :key="i" class="max-w-[18rem]">
                 <ModalProfile :pocket="item">
@@ -37,7 +37,7 @@
     </div>
     <hr class="border-t border-stone-200"/>
     <div class="px-14 my-8">
-        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary mt-8 text-center">Senior Partner</h2>
+        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary mt-8 text-center">{{ getLang('our_team_title4') }}</h2>
         <div class="flex flex-wrap gap-7 justify-center mt-5">
             <div v-for="(item, i) in seniorPartner" :key="i" class="max-w-[18rem]">
                 <ModalProfile :pocket="item">
@@ -54,8 +54,28 @@
             </div>
         </div>
     </div>
+    <hr class="border-t border-stone-200"/>
     <div class="px-14 my-8">
-        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary mt-8 text-center">Partner</h2>
+        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary mt-8 text-center">{{ getLang('our_team_title5') }}</h2>
+        <div class="flex flex-wrap gap-7 justify-center mt-5">
+            <div v-for="(item, i) in juniorPartner" :key="i" class="max-w-[18rem]">
+                <ModalProfile :pocket="item">
+                    <div class="relative">
+                        <div class="bg-slate-300 aspect-square hover:-m-5 hover:shadow transition-all">
+                            <img :src="item.image" :alt="item.name" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex flex-col text-center leading-[18px] mt-5">
+                            <span class="font-semibold text-slate-700">{{ item.name }}</span>
+                            <span class="text-secondary font-medium text-sm">{{ item.position }}</span>
+                        </div>
+                    </div>
+                </ModalProfile>
+            </div>
+        </div>
+    </div>
+    <hr class="border-t border-stone-200"/>
+    <div class="px-14 my-8">
+        <h2 class="text-2xl lg:text-4xl font-semibold text-secondary mt-8 text-center">{{ getLang('our_team_title6') }}</h2>
         <div class="flex flex-wrap gap-7 justify-center mt-5">
             <div v-for="(item, i) in partner" :key="i" class="max-w-[18rem]">
                 <ModalProfile :pocket="item">
@@ -76,6 +96,7 @@
 
 <script setup lang="ts">
 import asset from '../../../../assets/asset';
+import { getLang } from '../../../../helper/language/language';
 import ModalProfile from './modal-profile.vue';
 
 const managingPartner = [
@@ -184,9 +205,12 @@ const seniorPartner = [
         legal integrity.</p>
     `,
   },
+];
+
+const juniorPartner = [
   {
     name: "M Bismar MH Tawari, S.H., M.H",
-    position: "Senior Partner",
+    position: "Junior Partner",
     image: asset.prsnProfile11,
     overview: `
         <p><b>M Bismar MH Tawari</b>, is a distinguished legal profes￾sional with a focus on delivering top-notch legal 

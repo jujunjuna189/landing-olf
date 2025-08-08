@@ -3,7 +3,7 @@
         <div class="flex gap-18 items-center justify-center">
             <div class="flex flex-col items-center">
                 <div class="border-t-2 w-16 border-secondary"></div>
-                <span class="text-2xl lg:text-5xl font-semibold text-secondary lg:mt-8">Personal</span>
+                <span class="text-2xl lg:text-5xl font-semibold text-secondary lg:mt-8">{{ getLang('expertise_title3') }}</span>
             </div>
         </div>
         <div class="mt-10 flex justify-center">
@@ -25,28 +25,29 @@
 
 <script setup lang="ts">
 import asset from '../../../../assets/asset';
+import { getLang } from '../../../../helper/language/language';
 
 
 const perosnals = [
     {
         icon: asset.icFamilyLaw,
-        title: 'FAMILY LAW',
+        title: getLang('expertise_personal_item1'),
     },
     {
         icon: asset.icHumanRights,
-        title: 'HUMAN RIGHTS',
+        title: getLang('expertise_personal_item2'),
     },
     {
         icon: asset.icInheritance,
-        title: 'INHERITANCE',
+        title: getLang('expertise_personal_item3'),
     },
     {
         icon: asset.icGuardianship,
-        title: 'GUARDIANSHIP',
+        title: getLang('expertise_personal_item4'),
     },
     {
         icon: asset.icAuction,
-        title: 'ETC,.',
+        title: getLang('expertise_personal_item5'),
     }, 
     
 ];
