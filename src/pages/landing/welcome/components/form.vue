@@ -2,7 +2,7 @@
     <div class="lg:grid lg:grid-cols-5 bg-linear-to-r from-primary to-primary py-5 lg:py-16 px-5 lg:px-10" id="form">
         <div class="lg:col-span-3 lg:flex lg:justify-center lg:items-center">
             <div class="lg:flex lg:justify-center lg:items-center">
-                <div class="lg:flex lg:flex-col lg:justify-center lg:text-justify lg:pl-20">
+                <div class="lg:flex lg:flex-col lg:justify-center lg:pl-20">
                     <h3 class="text-xl lg:text-3xl font-bold text-warning">{{ getLang('main_title8') }}</h3>
                     <p class="text-white lg:w-[70%] mt-5 text-sm lg:text-base">
                         {{ getLang('main_paragraph7') }}
