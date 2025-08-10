@@ -6,7 +6,7 @@
                     <img :src="asset.lg" alt="logo-olf">
                 </div>
                 <div class="uppercase">
-                    <span class="font-semibold text-sm lg:text-3xl">ONO LAW FIRM</span>
+                    <span class="font-semibold text-sm lg:text-2xl">ONO LAW FIRM</span>
                 </div>
             </div>
             <div class="grow hidden lg:block">
