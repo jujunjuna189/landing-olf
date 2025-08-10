@@ -4,7 +4,7 @@
             <div class="border-t-2 w-14 border-secondary"></div>
             <h3 class="text-xl lg:text-4xl text-secondary font-semibold mt-5 lg:mt-12">{{ getLang('main_title2') }}</h3>
         </div>
-        <div class="lg:px-28 lg:py-24">
+        <div class="lg:px-28 lg:py-24 mt-5 md:mt-0">
             <Carousel v-bind="carouselConfig">
                 <Slide v-for="(item, i) in logos" :key="i">
                     <div class="carousel__item w-72 h-30 flex justify-center items-center">
@@ -13,7 +13,7 @@
                 </Slide>
             </Carousel>
         </div>
-        <div class="flex flex-col justify-center items-center lg:mt-10">
+        <div class="flex flex-col justify-center items-center mt-10 lg:mt-10">
             <h3 class="text-xl lg:text-4xl text-secondary font-semibold">{{ getLang('main_title3') }}</h3>
         </div>
         <div class="lg:px-28 lg:py-10">
@@ -45,6 +45,10 @@ const carouselConfig = {
     autoplay: 3000,
     transition: 5000,
     gap: 0,
+    breakpoints: {
+      0: { itemsToShow: 3, itemsToScroll: 3, gap: 20 },
+      700: { itemsToShow: 5, itemsToScroll: 5, },
+    }
 }
 
 const carouselConfigV2 = {
